@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SRX Mint Portal</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ffcc;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    button {
+      background-color: #00ffcc;
+      color: black;
+      border: none;
+      padding: 1rem 2rem;
+      margin: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00ffcc;
+      transition: transform 0.2s ease;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>💠 SRX Mint Portal 💠</h1>
+  <div class="btn-group">
+    <button onclick="connectWallet()">🔗 Connect Wallet</button>
+    <button onclick="mintToken()">🧬 Mint SRX</button>
+    <a href="https://github.com/siriunox-project/siriunox" target="_blank">
+      <button>📜 View Manifesto</button>
+    </a>
+  </div>
+
+  <script>
+    async function connectWallet() {
+      if (typeof window.ethereum !== 'undefined') {
+        try {
+          await ethereum.request({ method: 'eth_requestAccounts' });
+          alert('Wallet connected!');
+        } catch (error) {
+          alert('Connection failed: ' + error.message);
+        }
+      } else {
+        alert('MetaMask not detected.');
+      }
+    }
+
+    async function mintToken() {
+      const contractAddress = "0xf34605e3aaa1c496e5c4aabd5203794e0b23ee47";
+      const abi = [ { "inputs": [], "name": "mint", "outputs": [], "stateMutability": "nonpayable", "type": "function" } ];
+
+      if (typeof window.ethereum !== 'undefined') {
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        const signer = provider.getSigner();
+        const contract = new ethers.Contract(contractAddress, abi, signer);
+
+        try {
+          const tx = await contract.mint();
+          await tx.wait();
+          alert("✅ Mint successful!");
+        } catch (error) {
+          alert("❌ Mint failed: " + error.message);
+        }
+      } else {
+        alert('MetaMask not detected.');
+      }
+    }
+  </script>
+
+  <!-- ethers.js CDN -->
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+    type="application/javascript"></script>
+</body>
+</html>
