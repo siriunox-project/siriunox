@@ -1,0 +1,50 @@
+SRX Nasıl Mint Edilir? (Masaüstü ve Mobil Talimatları)
+
+🌐 Adresimiz:
+
+Mint işlemi şu sayfa üzerinden yapılır:
+https://siriunox-project.github.io/siriunox/
+
+⸻
+
+💻 Masaüstü Tarayıcıdan (Bilgisayar)
+	1.	MetaMask eklentisini yükleyin:
+Google Chrome veya Brave gibi bir tarayıcıya MetaMask uzantısını kurun.
+	2.	Cüzdanınızı açın ve Arbitrum ağına geçin:
+MetaMask’ta aktif ağı Arbitrum olarak seçin. (Varsa ekleyin.)
+	3.	Mint sayfasını açın:
+Tarayıcınızdan şu adresi ziyaret edin:
+https://siriunox-project.github.io/siriunox/
+	4.	“Connect Wallet” butonuna tıklayın:
+MetaMask penceresi açılacak. Cüzdan bağlantısını onaylayın.
+	5.	“Mint” butonuna tıklayın:
+Mint işlemi için MetaMask’ta çıkan işlemi onaylayın.
+
+⸻
+
+📱 Telefon ve Tablet (Mobil Cihazlar)
+
+Tarayıcılarda MetaMask eklentisi çalışmadığı için, mint işlemi sadece cüzdan uygulamasının içindeki tarayıcı (browser) üzerinden yapılabilir.
+
+MetaMask Mobil Uygulaması ile:
+	1.	MetaMask mobil uygulamasını indirin ve cüzdan oluşturun ya da bağlayın.
+	2.	Uygulamanın içinden “Tarayıcı” sekmesini açın.
+(Alt menüde ya da hamburger menüde bulunur.)
+	3.	Aşağıdaki adresi oraya yapıştırın ve sayfayı açın:
+https://siriunox-project.github.io/siriunox/
+	4.	“Connect Wallet” ve ardından “Mint” butonuna basın.
+MetaMask sizden onay isteyecek.
+
+⸻
+
+🎯 SRX Token’ı Cüzdanınızda Görüntülemek için:
+
+Mint işleminden sonra token bakiyesi bazen otomatik görünmeyebilir. Görmek için:
+	1.	Cüzdan uygulamasında “Token Ekle” / “Import Token” seçeneğine gidin.
+	2.	Aşağıdaki bilgileri girin:
+	•	Token Contract Adresi: 0xf34605e3aaa1c496e5c4aabd5203794e0b23ee47
+	•	Token Sembolü (Name): SRX
+	•	Ondalık Sayı (Decimals): 8
+	3.	Kaydet / Ekle deyin. SRX bakiyeniz görünür hale gelecektir.
+
+Not: MetaMask en yaygın kullanılan cüzdan olmakla birlikte, dApp bağlantısını destekleyen ve Ethereum uyumlu (EVM) diğer cüzdanlarla da mint işlemi yapılabilir.
