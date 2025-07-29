@@ -1,0 +1,71 @@
+Siriunox Manifestosu 
+
+Bu proje, Satoshi Nakamoto’nun vizyonundan ve Richard M. Stallman’ın özgürlükçü ruhundan ilham alır. 
+Dijital tehlikelere karşı sıradan bireye güvenli bir araç verme amacı taşımaktadır.
+21. yüzyılda dijital dönüşüm dünyayı yeniden şekillendiriyor ama her zaman daha iyiye doğru değil. 
+
+Karbon vergileri, sosyal kredi puanları, merkezî dijital kimlikler ve nakit paranın kaldırılması, temel insan özgürlüklerini kısıtlayan bir ağ örüyor.
+SRX, bu sistemin dışında kalmak isteyenler için yaratılmış, merkezî olmayan, sahipsiz ve sabit arzlı dijital bir değerdir.
+
+Bir yatırım aracı ya da spekülatif varlık değildir.
+
+• SRX’in arkasında bir sahip, şirket ya da otorite yoktur.
+
+• Geliştiricileri anonimdir.
+
+• Bu proje herhangi bir kişiye, gruba ya da şirkete ait değildir.
+
+• Eğer insanlar onu benimser, kullanır ve taşırsa yaşar, aksi halde yok olur. Ama yozlaştırılamaz.
+
+⸻ 
+
+❓ Neden SRX? Bitcoin veya Monero yetmiyor mu?
+
+-SRX, büyük projelerle rekabet etmeye çalışmaz; onların eksik kaldığı yerde özgün bir çözüm sunmayı amaçlar.
+
+• Bitcoin **izlenebilir ve artan şekilde devlet gözetimine ve sansürüne açıktır.**
+
+• Monero **gizlidir ama karmaşıktır ve birçok bölgede yasaklanmıştır.**
+
+• Yasal baskı altında onur ve ekonomik özgürlüğü ve gizliliği korumaya çalışır. 
+
+⸻
+
+🔢 Token Ekonomisi 
+
+• Toplam arz: 80.000.000 SRX
+
+-SRX’in toplam arzı, maksimum potansiyel insan nüfusu (12 milyar) esas alınarak oluşturulan sembolik ama uygulanabilir bir modele göre belirlenmiştir.
+
+-Bu sayı, küresel altın ve gümüş rezervlerinin toplam değeriyle ilişkilendirilmiş ve 1:21 oranı kullanılmıştır.
+
+-Bu sadece teknik bir hesaplama değil; SRX’in ekonomik özgürlük ve bireysel egemenlik ideallerini temsil eden bir duruşudur.
+
+-Bu model, bir kilo zeytinyağı gibi gündelik alışverişlerin kullanıcı dostu ondalıklarla yapılabilmesini sağlar,
+0.000000123 gibi anlamsız mikro ödemeleri gereksiz kılar. Ancak bu model, manifestoda tanımlanan şekilde, kâr ve çıkar amacı gütmeyen bir topluluk 
+tarafından benimsenirse gerçek anlamına kavuşur. Amacı, dijital dünyanın karmaşıklığına ve tehlikelerine karşı her bireyin güvenli bir araca sahip olmasını sağlamaktır. 
+
+💰 SRX Nasıl Elde Edilir?
+
+-SRX borsalarda işlem göremez.
+
+-Önceden tanımlanmış, değiştirilemez kurallarla bir akıllı kontrat üzerinden doğrudan üretilecektir. 
+Detaylı talimat için lütfen TR_USER_GUIDE_HOW_TO_MINT dosyasını inceleyiniz.
+Ethereum’un temel güvenliği ve Arbitrum’un verimliliği birlikte kullanılarak uzun vadeli sürdürülebilirlik sağlanacaktır.
+
+Ama,
+
+Orijinal Kontrat ve Sahte Forklar Üzerine SRX, halka açık bir blokzincir üzerinde var olduğu için, herkes bu kontratı çatallayabilir (fork),
+kodunu kopyalayabilir ve benzer isimde projeler başlatabilir. Bu, açık kaynak kültürünün doğal bir parçasıdır.
+Ancak bu tür kopyalar, SRX’in temel felsefesini yansıtmaz: Herkese açık olma, kâr amacı gütmeme, spekülatif müdahalelere kapalı olma ve sabit toplam arz. 
+Bu nedenle, kullanıcılar yalnızca orijinal kontrat adresiyle etkileşimde bulunmalıdır :
+
+Resmî kontrat adresi: 0xAE4E8d3C1537bA41160e69B8daf0eA8A86c14Da4 (Arbitrum One Ağı) 
+
+SRX, merkezî kontrol sistemlerine karşı bir duruş olarak doğmuştur. Onu manipülasyon için kullanmaya çalışan hiç kimse, arkasındaki fikri yansıtmaz.
+
+📁 Tüm kodlar, kontratlar, belgeler ve proje materyalleri GitHub üzerinde mevcuttur.
+
+📦 Repo: https://github.com/siriunox-project/siriunox 
+
+🧠 K & M
