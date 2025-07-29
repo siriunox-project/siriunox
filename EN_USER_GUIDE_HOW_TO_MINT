@@ -1,0 +1,48 @@
+How to Mint SRX Token (Desktop & Mobile Instructions)
+
+🌐 Website:
+
+Mint your tokens at:
+https://siriunox-project.github.io/siriunox/
+
+⸻
+
+💻 From Desktop Browser
+	1.	Install MetaMask extension:
+Add MetaMask to your Chrome, Brave, or Firefox browser.
+	2.	Switch MetaMask network to Arbitrum:
+Make sure you are connected to the Arbitrum network. Add it if not available.
+	3.	Open the mint page:
+Go to: https://siriunox-project.github.io/siriunox/
+	4.	Click “Connect Wallet”:
+Approve the connection in MetaMask popup.
+	5.	Click “Mint”:
+Confirm the transaction in MetaMask to mint SRX tokens.
+
+⸻
+
+📱 On Mobile Devices (Phone & Tablet)
+
+Since browser extensions are not supported on mobile browsers, minting is only possible via the built-in browser inside wallet apps.
+
+Using MetaMask Mobile App:
+	1.	Install and set up MetaMask mobile app.
+	2.	Open the app’s Browser tab (usually in the bottom or menu).
+	3.	Enter the mint page URL:
+https://siriunox-project.github.io/siriunox/
+	4.	Tap “Connect Wallet” and then “Mint”.
+Approve the transaction when prompted.
+
+⸻
+
+🎯 How to See SRX Tokens in Your Wallet
+
+If your minted tokens don’t show automatically, add them manually:
+	1.	Go to “Add Token” or “Import Token” in your wallet.
+	2.	Enter these details:
+	•	Contract Address: 0xf34605e3aaa1c496e5c4aabd5203794e0b23ee47
+	•	Token Symbol: SRX
+	•	Decimals: 8
+	3.	Save/Add the token. Your SRX balance will now appear.
+
+Note: While MetaMask is the most commonly used wallet, minting is also possible with other Ethereum-compatible (EVM) wallets that support dApp connections.
